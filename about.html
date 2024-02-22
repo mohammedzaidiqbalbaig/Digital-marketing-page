@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <title>About us</title>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">VSMS</a>
+      </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>   
+    </div>
+  </nav>
+  <br><br>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>The purpose of VSMS is user friendly simple, fast, and cost–effective. It deals with the collection with the collection
+    of people’s problems on their vehicle such as vehicle breakdown, tyre replacement, fuel
+    delivery, battery down, lockout service etc. The main function of this system is to register
+    mechanic’s and rescue team details and retrieve these details as and when required, and also
+    to manipulate these details meaningfully. System input contains mechanic’s details, while
+    system output is to get these details on to the screen.While travelling if you are unable to reach to a mechanic or garage, making use of 
+    road side service it makes you comfortable.RSS is basically acompany type which is located 
+    at a particular areas, with a team called RESCUE Team which would be available 24*7. We 
+    have come across such that even the local shops can participate as a rescue team. Saves time 
+    and offers peace of mind.Professional Mechanical / repair assistance by just making a call.
+    </p>
+</div>
+<br>
+<h2 style="text-align:center">What makes us so good?</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="E:\web page projects\car service web page\pic1.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>30 mins reach time</h2>
+        <p class="title">Every minute counts</p>
+        <p>With a mechanic located within 5kms of your location. Team RESCUE is able to reach you within 30 minutes.</p>
+        <P>Smart way to work!</P>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="E:\web page projects\car service web page\pic8.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Trained Mechanics</h2>
+        <p class="title">Efficiency at its best</p>
+        <p>Trained and our certified mechanincs inspect & repair your vehicle. With 60+ sepcialized tools. We fix over 98% on-spot</p>
+        <p>Let's get the job done!</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="E:\web page projects\car service web page\pic6.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Available across Bangalore</h2>
+        <p class="title">Count on us</p>
+        <p>Team RESCUE has over 50 service providers assisting you 24/7, all days of the week across Bengaluru</p>
+        <p>Reachable, Reliable and Responsive!</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
